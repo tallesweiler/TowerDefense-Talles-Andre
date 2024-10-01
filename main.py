@@ -20,7 +20,7 @@ def main(z):
 
   #variáveis do jogo
   game_over = False
-  game_outcome = 0# -1 is loss & 1 is win
+  game_outcome = 0# -1 derrota e 1 vitoria
   level_started = False
   last_enemy_spawn = pg.time.get_ticks()
   placing_turrets = False
